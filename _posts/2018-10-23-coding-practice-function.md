@@ -31,12 +31,57 @@ progresses	speeds	return <br>
 [93,30,55]	[1,30,5]	[2,1] <br>
 
 ### Explain about input and output example:
-
+- You can deploy the first function after 7 days. First function is completed 93% and progressing 1% per day.
+- You can deploy the second function after 3 days. Second function is completed 30% and progressing 30% per day.
+- However, the first function didn't be completed yet, second function can be deployed after 7 days when the first function will be deployed.
+- You can deploy the third function after 9 days. Third function is completed 55% and progressing 5% per day.
+- So, you can deploy 2 functions at 7 days, and 1 function at 9 days.
 
 ### 입출력 예 설명: 
 - 첫 번째 기능은 93% 완료되어 있고 하루에 1%씩 작업이 가능하므로 7일간 작업 후 배포가 가능합니다.
 - 두 번째 기능은 30%가 완료되어 있고 하루에 30%씩 작업이 가능하므로 3일간 작업 후 배포가 가능합니다.
 - 하지만 이전 첫 번째 기능이 아직 완성된 상태가 아니기 때문에 첫 번째 기능이 배포되는 7일째 배포됩니다.
 - 세 번째 기능은 55%가 완료되어 있고 하루에 5%씩 작업이 가능하므로 9일간 작업 후 배포가 가능합니다.
+- 따라서 7일째에 2개의 기능, 9일째에 1개의 기능이 배포됩니다.
 
-따라서 7일째에 2개의 기능, 9일째에 1개의 기능이 배포됩니다. <br>
+### Solved:
+```javascript
+function solution(progresses, speeds) {
+    var answer = [];
+    var proc = [];
+    var proLength = progresses.length;
+    for(var i=0; i<proLength; i++)
+    {
+        proc.push(completePeriod(progresses[i], speeds[i]));
+    }
+    var procLength = proc.length;
+    var total = 0;
+    for(var stand=0; stand<procLength; stand++)
+    {
+        var count = 1;
+        for(var j=stand+1; j<procLength; j++)
+        {
+            if(proc[stand] > proc[j]) count++;
+            else if(proc[stand] === proc[j]) count++;
+            else if(proc[stand] < proc[j]) {stand = j-1; break;}
+        }
+        total += count;
+        if(total <= procLength) answer.push(count);
+    }
+    
+    return answer;
+}
+
+function completePeriod(start, pace) {
+    var days;
+    var total = 0;
+    var count = 1;
+    for (;;)
+    {
+        if(total >= 100) break;
+        total = start + (pace*count);
+        count++;
+    }
+    return count-1;
+}
+```
