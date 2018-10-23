@@ -1,3 +1,9 @@
+---
+title: "function development (coding practice)"
+date: 2018-10-23
+categories: coding practice programmers
+---
+
 ### Explain Problems:
 Our team is working on a functional improvement. Each function can be reflected in the service at 100% advance. <br>
 In addition, the development speed of each function is different. So, the function behind it can be developed before the function in front, and the function in the back is distributed together when the function in front is distributed.<br>
