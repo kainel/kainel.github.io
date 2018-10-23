@@ -14,8 +14,9 @@ For example, if a=5, b=24, then May 24 is Tuesday, so return the string TUE.<br>
 The month a and the day b of 2016 is real day. (The dates of 26th 13Month or 45th Feb will not be given)<br>
 
 ### Input and output examples: 
-|a|b|result|
-|5|24|TUE|
+|  a |  b  |result|
+|:---|:---:|---:  |
+|  5 |  24 |  TUE |
 
 ### 문제 설명:
 2016년 1월 1일은 금요일입니다. 2016년 a월 b일은 무슨 요일일까요? <br>
