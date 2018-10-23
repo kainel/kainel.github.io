@@ -1,5 +1,5 @@
 ---
-title: "2016 year(code practice)"
+title: "2016 year (code practice)"
 date: 2018-10-23
 categories: coding practice
 ---
