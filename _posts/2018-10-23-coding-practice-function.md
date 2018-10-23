@@ -34,8 +34,9 @@ Complete the solution to return how many functions are deployed for each distrib
 |[93,30,55]|[1,30,5]|[2,1]|
 
 ### 입출력 예:
-progresses	speeds	return <br>
-[93,30,55]	[1,30,5]	[2,1] <br>
+|progresses|speeds|return|
+|:---      |:---: |---:  |
+|[93,30,55]|[1,30,5]|[2,1]|
 
 ### Explain about input and output example:
 - You can deploy the first function after 7 days. First function is completed 93% and progressing 1% per day.
