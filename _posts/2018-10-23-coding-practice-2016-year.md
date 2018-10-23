@@ -1,7 +1,7 @@
 ---
 title: "2016 year (code practice)"
 date: 2018-10-23
-categories: coding practice
+categories: coding practice programmers Lv1
 ---
 ### Explain problems: 
 Jan First 2016 is a Friday. What is a day of month of A and day of B of 2016?<br>
