@@ -29,8 +29,9 @@ The month a and the day b of 2016 is real day. (The dates of 26th 13Month or 45t
 2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다) <br>
 
 ### 입출력 예:
-a	b	result <br>
-5	24	TUE <br>
+|  a |  b  |result|
+|:---|:---:|---:  |
+|  5 |  24 |  TUE |
 
 ```javascript
 function solution(a, b) {
