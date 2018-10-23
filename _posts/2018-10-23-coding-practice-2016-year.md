@@ -15,7 +15,7 @@ The month a and the day b of 2016 is real day. (The dates of 26th 13Month or 45t
 
 ### Input and output examples: 
 |  a |  b  |result|
-|:---|:---:|---:  |
+|:---:|:---:|:---:|
 |  5 |  24 |  TUE |
 
 ### 문제 설명:
@@ -30,7 +30,7 @@ The month a and the day b of 2016 is real day. (The dates of 26th 13Month or 45t
 
 ### 입출력 예:
 |  a |  b  |result|
-|:---|:---:|---:  |
+|:---:|:---:|:---:|
 |  5 |  24 |  TUE |
 
 ```javascript
