@@ -1,7 +1,7 @@
 ---
 title: "function development (coding practice)"
 date: 2018-10-23
-categories: coding practice programmers LV2
+categories: coding practice programmers Lv2
 ---
 
 ### Explain Problems:
