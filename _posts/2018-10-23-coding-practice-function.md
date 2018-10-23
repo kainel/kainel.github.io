@@ -1,7 +1,7 @@
 ---
 title: "function development (coding practice)"
 date: 2018-10-23
-categories: coding practice programmers
+categories: coding practice programmers LV2
 ---
 
 ### Explain Problems:
@@ -91,3 +91,5 @@ function completePeriod(start, pace) {
     return count-1;
 }
 ```
+Problems from [Programmers](https://programmers.co.kr/) <br>
+문제 출처 [프로그래머스](https://programmers.co.kr/)
