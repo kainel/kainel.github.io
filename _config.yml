@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Kainel's Store
-subtitle: "Simple Store Blog"
+title: Kainel's Storage
+subtitle: "javascript studying and coding practice"
 email: jepiloss@gmail.com
 name: Kainel
 description: >
