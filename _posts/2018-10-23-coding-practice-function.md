@@ -1,5 +1,5 @@
 ---
-title: "function development (coding practice)"
+title: "function development"
 date: 2018-10-23
 categories: coding-practice
 ---
