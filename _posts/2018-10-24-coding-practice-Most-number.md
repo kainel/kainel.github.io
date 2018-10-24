@@ -26,13 +26,13 @@ When an array of 0 or positive integers is given as a parameter, create a soluti
 
 ### Input and output example:
 |numbers|return|
-|:---:|:---:|
+|:---|:---|
 |[6,10,2]|"6210"|
 |[3,30,34,5,9]|"9534330"|
 
 ### 입출력 예:
 |numbers|return|
-|:---:|:---:|
+|:---|:---|
 |[6,10,2]|"6210"|
 |[3,30,34,5,9]|"9534330"|
 
