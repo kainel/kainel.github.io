@@ -14,9 +14,20 @@ For example, if a=5, b=24, then May 24 is Tuesday, so return the string TUE.<br>
 The month a and the day b of 2016 is real day. (The dates of 26th 13Month or 45th Feb will not be given)<br>
 
 ### Input and output examples: 
-|  a |  b  |result|
-|:---:|:---:|:---:|
-|  5 |  24 |  TUE |
+<table>
+   <tbody>
+     <tr>
+       <th align="center">a</th>
+       <th align="center">b</th>
+       <th align="center">result</th>
+     </tr>
+     <tr>
+       <td>5</td>
+       <td>24</td>
+       <td>TUE</td>
+     </tr>
+  </tbody>
+</table>
 
 ### 문제 설명:
 2016년 1월 1일은 금요일입니다. 2016년 a월 b일은 무슨 요일일까요? <br>
@@ -29,9 +40,20 @@ The month a and the day b of 2016 is real day. (The dates of 26th 13Month or 45t
 2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다) <br>
 
 ### 입출력 예:
-|  a |  b  |result|
-|:---:|:---:|:---:|
-|  5 |  24 |  TUE |
+<table>
+   <tbody>
+     <tr>
+       <th align="center">a</th>
+       <th align="center">b</th>
+       <th align="center">result</th>
+     </tr>
+     <tr>
+       <td>5</td>
+       <td>24</td>
+       <td>TUE</td>
+     </tr>
+  </tbody>
+</table>
 
 ```javascript
 function solution(a, b) {
