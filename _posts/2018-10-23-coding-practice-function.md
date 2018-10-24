@@ -30,12 +30,12 @@ Complete the solution to return how many functions are deployed for each distrib
 
 ### Input and output example:
 progresses|speeds|return
-:--------:|:----:|:-----:
+:---:|:---:|:---:
 [93,30,55]|[1,30,5]|[2,1]
 
 ### 입출력 예:
 progresses|speeds|return
-:--------:|:----:|:-----:
+:---:|:---:|:---:
 [93,30,55]|[1,30,5]|[2,1]
 
 ### Explain about input and output example:
