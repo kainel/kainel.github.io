@@ -25,18 +25,40 @@ When an array of 0 or positive integers is given as a parameter, create a soluti
 - 정답이 너무 클 수 있으니 문자열로 바꾸어 return 합니다.
 
 ### Input and output example:
-
-|numbers      |return   |
-|:---         |:---     |
-|[6,10,2]     |"6210"   |
-|[3,30,34,5,9]|"9534330"|
+<table>
+   <tbody>
+     <tr>
+       <th>numbers</th>
+       <th>return</th>
+     </tr>
+     <tr>
+       <td>[6,10,2]</td>
+       <td>"6210"</td>
+     </tr>
+     <tr>
+       <td>[3,30,34,5,9]</td>
+       <td>"9534330"</td>
+     </tr>
+  </tbody>
+</table>
 
 ### 입출력 예:
-
-|numbers      |return   |
-|:---         |:---     |
-|[6,10,2]     |"6210"   |
-|[3,30,34,5,9]|"9534330"|
+<table>
+   <tbody>
+     <tr>
+       <th>numbers</th>
+       <th>return</th>
+     </tr>
+     <tr>
+       <td>[6,10,2]</td>
+       <td>"6210"</td>
+     </tr>
+     <tr>
+       <td>[3,30,34,5,9]</td>
+       <td>"9534330"</td>
+     </tr>
+  </tbody>
+</table>
 
 ### Solved:
 ```javascript
