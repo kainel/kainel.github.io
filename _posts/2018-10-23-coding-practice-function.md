@@ -29,9 +29,20 @@ Complete the solution to return how many functions are deployed for each distrib
 - 예를 들어 진도율이 95%인 작업의 개발 속도가 하루에 4%라면 배포는 2일 뒤에 이루어집니다.
 
 ### Input and output example:
-progresses|speeds|return
----|---|---
-[93,30,55]|[1,30,5]|[2,1] 
+<table>
+   <tbody>
+     <tr>
+       <th align="center">progresses</th>
+       <th align="center">speeds</th>
+       <th align="center">return</th>
+     </tr>
+     <tr>
+       <td>[93,30,55]</td>
+       <td>[1,30,5]</td>
+       <td>[2,1]</td>
+     </tr>
+  </tbody>
+</table>
 
 ### 입출력 예:
 progresses|speeds|return
