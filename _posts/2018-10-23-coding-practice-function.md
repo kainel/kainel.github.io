@@ -45,9 +45,21 @@ Complete the solution to return how many functions are deployed for each distrib
 </table>
 
 ### 입출력 예:
-progresses|speeds|return
----|---|---
-[93,30,55]|[1,30,5]|[2,1]
+<table>
+   <tbody>
+     <tr>
+       <th align="center">progresses</th>
+       <th align="center">speeds</th>
+       <th align="center">return</th>
+     </tr>
+     <tr>
+       <td>[93,30,55]</td>
+       <td>[1,30,5]</td>
+       <td>[2,1]</td>
+     </tr>
+  </tbody>
+</table>
+
 
 ### Explain about input and output example:
 - You can deploy the first function after 7 days. First function is completed 93% and progressing 1% per day.
